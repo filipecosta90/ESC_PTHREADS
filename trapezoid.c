@@ -10,10 +10,10 @@
  *
  **************************************************************/
 
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <pthread.h>
+#include <semaphore.h>
 #include <string.h>
 #include "timer.h"
 
@@ -31,6 +31,9 @@ int flag;
 /* mutex global variables:*/
 pthread_mutex_t   mutex;
 
+/* semaphore global variables: */
+sem_t counter_sem;
+
 /*  */
 double f(double x) {
   double return_val;
@@ -46,7 +49,6 @@ void* busy_wait_compute (  void* rank ) {
   long my_init_pos  = my_n * my_rank;
   long my_final_pos = my_init_pos + my_n;
   double x_i;
-
   for (long  i = my_init_pos ;i<=my_final_pos-1;i++) { 
     x_i = interval_a + i*h;
     while ( flag != my_rank );
@@ -65,7 +67,6 @@ void* mutex_compute (  void* rank ) {
   long my_init_pos  = my_n * my_rank;
   long my_final_pos = my_init_pos + my_n;
   double x_i;
-
   for (long  i = my_init_pos ;i<=my_final_pos-1;i++){ 
     x_i = interval_a + i*h;
     pthread_mutex_lock(&mutex);
@@ -76,11 +77,28 @@ void* mutex_compute (  void* rank ) {
   return NULL;
 } 
 
+/* semaphore algorithm */
+void* semaphore_compute (  void* rank ) {
+  long my_rank = (long) rank;
+  double h = (interval_b - interval_a)/ n_intervals;
+  long my_n = n_intervals / thread_count;
+  long my_init_pos  = my_n * my_rank;
+  long my_final_pos = my_init_pos + my_n;
+  double x_i;
+  for (long  i = my_init_pos ;i<=my_final_pos-1;i++){ 
+    x_i = interval_a + i*h;
+    sem_wait(&counter_sem);
+    approx  +=  f(x_i); 
+    sem_post(&counter_sem);
+  }
+  return NULL;
+} 
+
 void print_results( int thread_count , char* method ){
   FILE * fp;
   total_time = global_time_stop - global_time_start;
   fp = fopen (method, "a");
-  fprintf(fp, "%d,%f,%f,%f\n",thread_count, total_time, global_time_start , global_time_stop );
+  fprintf(fp, "%d,%f,(%d:%d),%f,%f\n",thread_count, total_time, interval_a, interval_b,  global_time_start , global_time_stop );
   fclose(fp);
 }
 
@@ -90,6 +108,7 @@ int main(int argc, char* argv[]) {
   approx = 0.0;
   /* the first thread to have access to the critical section in busy wait is thread #0*/
   flag = 0;
+
   if (argc != 6) {
     fprintf(stderr, "invalid arg count\nusage: ./pth_trap <number of threads> <method> <a> <b> <n>\n");
     exit(0);
@@ -112,25 +131,35 @@ int main(int argc, char* argv[]) {
     for (long thread_number = 0; thread_number < thread_count; thread_number++) {
       pthread_create(&thread_handles[thread_number], NULL, mutex_compute,(void*) thread_number);
     }
+    /* Wait for threads to complete. */
+    for (int i = 0; i < thread_count; i++) {
+      pthread_join(thread_handles[i], NULL);
+    }
     pthread_mutex_destroy(&mutex);
   }
   if ( strcmp("semaphore",method) == 0 ) {
-
+    /* binary semaphore, initialized with 1(unlocked) */
+    sem_init(&counter_sem, 0, 1);
+    for (long thread_number = 0; thread_number < thread_count; thread_number++) {
+      pthread_create(&thread_handles[thread_number], NULL, semaphore_compute,(void*) thread_number);
+    }
+    /* Wait for threads to complete. */
+    for (int i = 0; i < thread_count; i++) {
+      pthread_join(thread_handles[i], NULL);
+    }
+    sem_destroy(&counter_sem); 
   }
-
   if ( strcmp("busy_wait",method) == 0 ) {
     for (long thread_number = 0; thread_number < thread_count; thread_number++) {
       pthread_create(&thread_handles[thread_number], NULL, busy_wait_compute,(void*) thread_number);
     }
-
+    /* Wait for threads to complete. */
+    for (int i = 0; i < thread_count; i++) {
+      pthread_join(thread_handles[i], NULL);
+    }
   }
-  /* Wait for threads to complete. */
-  for (int i = 0; i < thread_count; i++) {
-    pthread_join(thread_handles[i], NULL);
-  }
-
-  free(thread_handles);
   GET_TIME(global_time_stop);
+  free(thread_handles);
   print_results( thread_count , method );
   return 0;
 } /*  main  */
