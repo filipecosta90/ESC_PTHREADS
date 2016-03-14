@@ -1,9 +1,9 @@
 
-CC = icc
+CC = gcc-5
 
 #flags
 
-CFLAGS= -Wall -O2 -O3 -lpthread
+CFLAGS= -Wall -lpthread
 
 trapezoid: trapezoid.o 
 	$(CC) $(CFLAGS) -o pth_trap trapezoid.c
