@@ -97,11 +97,11 @@ void* semaphore_compute (  void* rank ) {
 	return NULL;
 } 
 
-void print_results( int thread_count , char* method ){
+void print_results( int thread_count , char* method){
 	FILE * fp;
 	total_time = global_time_stop - global_time_start;
 	fp = fopen (method, "a");
-	fprintf(fp, "%d,%f,(%d:%d),%f,%f\n",thread_count, total_time, interval_a, interval_b,  global_time_start , global_time_stop );
+	fprintf(fp, "%d,%f,(%d:%d),%f,%f, %f\n",thread_count, total_time, interval_a, interval_b,  global_time_start , global_time_stop, approx );
 	fclose(fp);
 }
 
@@ -128,6 +128,7 @@ int main(int argc, char* argv[]) {
 	thread_handles = malloc (thread_count*sizeof(pthread_t));
 
 	GET_TIME(global_time_start);
+approx = (f(interval_a) + f (interval_b))/ 2;
 	if ( strcmp("mutex",method) == 0 ) {
 		/* Initialize the mutex */
 		pthread_mutex_init(&mutex, NULL);
@@ -167,6 +168,8 @@ int main(int argc, char* argv[]) {
 			pthread_join(thread_handles[i], NULL);
 		}
 	}
+double h = (interval_b - interval_a)/ n_intervals;
+approx = h * approx;
 	GET_TIME(global_time_stop);
 	free(thread_handles);
 	print_results( thread_count , method );
