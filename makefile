@@ -1,5 +1,5 @@
 
-CC = gcc-5
+CC = gcc
 
 #flags
 

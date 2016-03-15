@@ -20,6 +20,10 @@
 long   thread_count;
 double global_time_start, global_time_stop, total_time;
 
+void* create_delete ( void* a ){
+	return NULL;
+}
+
 void print_results( int thread_count ){
 	FILE * fp;
 	total_time = global_time_stop - global_time_start;
@@ -45,7 +49,7 @@ int main(int argc, char* argv[]) {
 	GET_TIME(global_time_start);
 	long thread_number = 0;
 	for (thread_number = 0; thread_number < thread_count; thread_number++) {
-		pthread_create(&thread_handles[thread_number], NULL, NULL,NULL);
+		pthread_create(&thread_handles[thread_number], NULL, create_delete,(void*) thread_number);
 	}
 	/* Wait for threads to complete. */
 	int i = 0;    
