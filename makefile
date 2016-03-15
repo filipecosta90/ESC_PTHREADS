@@ -3,8 +3,7 @@ CC = gcc
 
 #flags
 
-CFLAGS= -Wall -lpthread
-
+CFLAGS= -Wall -fopenmp -lpthread
 
 create: create.o 
 	$(CC) $(CFLAGS) -o pth_create create.c

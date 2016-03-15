@@ -13,6 +13,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <pthread.h>
+#include <omp.h>
 #include <semaphore.h>
 #include <string.h>
 #include "timer.h"
@@ -128,7 +129,23 @@ int main(int argc, char* argv[]) {
 	thread_handles = malloc (thread_count*sizeof(pthread_t));
 
 	GET_TIME(global_time_start);
-approx = (f(interval_a) + f (interval_b))/ 2;
+	approx = (f(interval_a) + f (interval_b))/ 2;
+	if ( strcmp("omp",method) == 0 ) {
+		int h = (interval_b - interval_a)/ n_intervals;
+		long my_n = n_intervals / thread_count;
+		double x_i;
+		long i = interval_a;
+		#pragma omp parallel num_threads(thread_count)
+		{ 
+			#pragma omp parallel for schedule(static,my_n)
+			for (i = interval_a ;i<=interval_b-1;i+=h){ 
+				x_i = interval_a + i*h;
+				#pragma omp atomic	
+				approx  +=  f(x_i); 
+			}
+
+		}
+	}
 	if ( strcmp("mutex",method) == 0 ) {
 		/* Initialize the mutex */
 		pthread_mutex_init(&mutex, NULL);
@@ -168,8 +185,8 @@ approx = (f(interval_a) + f (interval_b))/ 2;
 			pthread_join(thread_handles[i], NULL);
 		}
 	}
-double h = (interval_b - interval_a)/ n_intervals;
-approx = h * approx;
+	double h = (interval_b - interval_a)/ n_intervals;
+	approx = h * approx;
 	GET_TIME(global_time_stop);
 	free(thread_handles);
 	print_results( thread_count , method );
