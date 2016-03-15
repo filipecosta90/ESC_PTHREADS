@@ -38,7 +38,7 @@ read -r node_info<$PBS_NODEFILE
 
 echo "Allocated computing node: $node_info"
 
-for method in semaphore mutex busy_wait
+for method in busy_wait
 do
   for nthreads in 32 64 128 256 
   do
