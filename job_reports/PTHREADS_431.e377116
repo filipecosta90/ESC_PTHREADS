@@ -1,0 +1,17 @@
+/var/spool/torque/mom_priv/jobs/377116.search6.di.uminho.pt.SC: line 45: 19707 Floating point exception./pth_trap $nthreads $method 0 $size $nthreads*65536
+/var/spool/torque/mom_priv/jobs/377116.search6.di.uminho.pt.SC: line 45: 19708 Floating point exception./pth_trap $nthreads $method 0 $size $nthreads*65536
+/var/spool/torque/mom_priv/jobs/377116.search6.di.uminho.pt.SC: line 45: 19709 Floating point exception./pth_trap $nthreads $method 0 $size $nthreads*65536
+/var/spool/torque/mom_priv/jobs/377116.search6.di.uminho.pt.SC: line 45: 19710 Floating point exception./pth_trap $nthreads $method 0 $size $nthreads*65536
+/var/spool/torque/mom_priv/jobs/377116.search6.di.uminho.pt.SC: line 45: 19711 Floating point exception./pth_trap $nthreads $method 0 $size $nthreads*65536
+/var/spool/torque/mom_priv/jobs/377116.search6.di.uminho.pt.SC: line 45: 21027 Floating point exception./pth_trap $nthreads $method 0 $size $nthreads*65536
+/var/spool/torque/mom_priv/jobs/377116.search6.di.uminho.pt.SC: line 45: 21028 Floating point exception./pth_trap $nthreads $method 0 $size $nthreads*65536
+/var/spool/torque/mom_priv/jobs/377116.search6.di.uminho.pt.SC: line 45: 21029 Floating point exception./pth_trap $nthreads $method 0 $size $nthreads*65536
+/var/spool/torque/mom_priv/jobs/377116.search6.di.uminho.pt.SC: line 45: 21030 Floating point exception./pth_trap $nthreads $method 0 $size $nthreads*65536
+/var/spool/torque/mom_priv/jobs/377116.search6.di.uminho.pt.SC: line 45: 21031 Floating point exception./pth_trap $nthreads $method 0 $size $nthreads*65536
+/var/spool/torque/mom_priv/jobs/377116.search6.di.uminho.pt.SC: line 45: 22347 Floating point exception./pth_trap $nthreads $method 0 $size $nthreads*65536
+/var/spool/torque/mom_priv/jobs/377116.search6.di.uminho.pt.SC: line 45: 22348 Floating point exception./pth_trap $nthreads $method 0 $size $nthreads*65536
+/var/spool/torque/mom_priv/jobs/377116.search6.di.uminho.pt.SC: line 45: 22349 Floating point exception./pth_trap $nthreads $method 0 $size $nthreads*65536
+/var/spool/torque/mom_priv/jobs/377116.search6.di.uminho.pt.SC: line 45: 22350 Floating point exception./pth_trap $nthreads $method 0 $size $nthreads*65536
+/var/spool/torque/mom_priv/jobs/377116.search6.di.uminho.pt.SC: line 45: 22351 Floating point exception./pth_trap $nthreads $method 0 $size $nthreads*65536
+mkdir: cannot create directory `__csv': File exists
+mv: cannot stat `DTRACE*.csv': No such file or directory

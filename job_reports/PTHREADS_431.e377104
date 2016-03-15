@@ -1,0 +1,22 @@
+/var/spool/torque/mom_priv/jobs/377104.search6.di.uminho.pt.SC: line 45: 13806 Floating point exception./pth_trap $nthreads $method 0 $size $nthreads
+/var/spool/torque/mom_priv/jobs/377104.search6.di.uminho.pt.SC: line 45: 13807 Floating point exception./pth_trap $nthreads $method 0 $size $nthreads
+/var/spool/torque/mom_priv/jobs/377104.search6.di.uminho.pt.SC: line 45: 13808 Floating point exception./pth_trap $nthreads $method 0 $size $nthreads
+/var/spool/torque/mom_priv/jobs/377104.search6.di.uminho.pt.SC: line 45: 13809 Floating point exception./pth_trap $nthreads $method 0 $size $nthreads
+/var/spool/torque/mom_priv/jobs/377104.search6.di.uminho.pt.SC: line 45: 13810 Floating point exception./pth_trap $nthreads $method 0 $size $nthreads
+/var/spool/torque/mom_priv/jobs/377104.search6.di.uminho.pt.SC: line 45: 13811 Floating point exception./pth_trap $nthreads $method 0 $size $nthreads
+/var/spool/torque/mom_priv/jobs/377104.search6.di.uminho.pt.SC: line 45: 13812 Floating point exception./pth_trap $nthreads $method 0 $size $nthreads
+/var/spool/torque/mom_priv/jobs/377104.search6.di.uminho.pt.SC: line 45: 28221 Floating point exception./pth_trap $nthreads $method 0 $size $nthreads
+/var/spool/torque/mom_priv/jobs/377104.search6.di.uminho.pt.SC: line 45: 28222 Floating point exception./pth_trap $nthreads $method 0 $size $nthreads
+/var/spool/torque/mom_priv/jobs/377104.search6.di.uminho.pt.SC: line 45: 28223 Floating point exception./pth_trap $nthreads $method 0 $size $nthreads
+/var/spool/torque/mom_priv/jobs/377104.search6.di.uminho.pt.SC: line 45: 28224 Floating point exception./pth_trap $nthreads $method 0 $size $nthreads
+/var/spool/torque/mom_priv/jobs/377104.search6.di.uminho.pt.SC: line 45: 28225 Floating point exception./pth_trap $nthreads $method 0 $size $nthreads
+/var/spool/torque/mom_priv/jobs/377104.search6.di.uminho.pt.SC: line 45: 28226 Floating point exception./pth_trap $nthreads $method 0 $size $nthreads
+/var/spool/torque/mom_priv/jobs/377104.search6.di.uminho.pt.SC: line 45: 28227 Floating point exception./pth_trap $nthreads $method 0 $size $nthreads
+/var/spool/torque/mom_priv/jobs/377104.search6.di.uminho.pt.SC: line 45: 42658 Floating point exception./pth_trap $nthreads $method 0 $size $nthreads
+/var/spool/torque/mom_priv/jobs/377104.search6.di.uminho.pt.SC: line 45: 42659 Floating point exception./pth_trap $nthreads $method 0 $size $nthreads
+/var/spool/torque/mom_priv/jobs/377104.search6.di.uminho.pt.SC: line 45: 42660 Floating point exception./pth_trap $nthreads $method 0 $size $nthreads
+/var/spool/torque/mom_priv/jobs/377104.search6.di.uminho.pt.SC: line 45: 42661 Floating point exception./pth_trap $nthreads $method 0 $size $nthreads
+/var/spool/torque/mom_priv/jobs/377104.search6.di.uminho.pt.SC: line 45: 42662 Floating point exception./pth_trap $nthreads $method 0 $size $nthreads
+/var/spool/torque/mom_priv/jobs/377104.search6.di.uminho.pt.SC: line 45: 42663 Floating point exception./pth_trap $nthreads $method 0 $size $nthreads
+/var/spool/torque/mom_priv/jobs/377104.search6.di.uminho.pt.SC: line 45: 42664 Floating point exception./pth_trap $nthreads $method 0 $size $nthreads
+=>> PBS: job killed: walltime 1232 exceeded limit 1200
