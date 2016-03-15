@@ -1,0 +1,11 @@
+CPU     ID                    FUNCTION:NAME
+  0      1                           :BEGIN MAIN THREAD START:
+START CSV:,38684325637322
+
+  0   1422   thread_terminate_self:lwp-exit THREAD EXIT:
+THREAD CSV:,606674, 0,38684326800265 ,38684326800265,0
+
+  0      2                             :END MAIN THREAD END:
+EXIT CSV:,38684326851158
+
+

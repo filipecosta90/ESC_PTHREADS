@@ -1,14 +1,15 @@
 #!bin/bash
 
-for method in mutex busy_wait semaphore
+for method in omp 
 do
-  for size in 1024 2048 4096 8192
+  for size in 1073741824
   do
-    gawk -F, "/0:$size/ {print}" $method >> $method"_"$size".csv"
+    gawk -f '431.gawk' $method >> $method"_"$size".csv"
   done
 done
 
-mv mutex __times
-mv busy_wait __times
-mv semaphore __times 
-mv *.csv __times
+#mkdir __times
+#mv mutex __times
+#mv busy_wait __times
+#mv semaphore __times 
+#mv *.csv __times

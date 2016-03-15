@@ -1,0 +1,75 @@
+CPU     ID                    FUNCTION:NAME
+  0      1                           :BEGIN MAIN THREAD START:
+START CSV:,38686054895371
+
+  0   1394 dtrace_thread_didexec:lwp-create 
+  0   1394 dtrace_thread_didexec:lwp-create 
+  0   1394 dtrace_thread_didexec:lwp-create 
+  0   1394 dtrace_thread_didexec:lwp-create 
+  0   1394 dtrace_thread_didexec:lwp-create 
+  0   1394 dtrace_thread_didexec:lwp-create 
+  0   1394 dtrace_thread_didexec:lwp-create 
+  0   1394 dtrace_thread_didexec:lwp-create 
+  0   1394 dtrace_thread_didexec:lwp-create 
+  0   1422   thread_terminate_self:lwp-exit THREAD EXIT:
+THREAD CSV:,606778, 38686055264219,38686055301538 ,37319,368848
+
+  0   1422   thread_terminate_self:lwp-exit THREAD EXIT:
+THREAD CSV:,606774, 38686055247179,38686055345465 ,98286,351808
+
+  0   1422   thread_terminate_self:lwp-exit THREAD EXIT:
+THREAD CSV:,606777, 38686055256279,38686055350730 ,94451,360908
+
+  0   1422   thread_terminate_self:lwp-exit THREAD EXIT:
+THREAD CSV:,606773, 38686055247186,38686055351953 ,104767,351815
+
+  0   1422   thread_terminate_self:lwp-exit THREAD EXIT:
+THREAD CSV:,606775, 38686055256790,38686055357653 ,100863,361419
+
+  0   1422   thread_terminate_self:lwp-exit THREAD EXIT:
+THREAD CSV:,606776, 38686055252623,38686055361875 ,109252,357252
+
+  0   1422   thread_terminate_self:lwp-exit THREAD EXIT:
+THREAD CSV:,606779, 38686055278663,38686055364863 ,86200,383292
+
+  0   1422   thread_terminate_self:lwp-exit THREAD EXIT:
+THREAD CSV:,606780, 38686055297570,38686055373845 ,76275,402199
+
+  0   1394 dtrace_thread_didexec:lwp-create 
+  0   1394 dtrace_thread_didexec:lwp-create 
+  0   1422   thread_terminate_self:lwp-exit THREAD EXIT:
+THREAD CSV:,606781, 38686055386948,38686055402154 ,15206,491577
+
+  0   1394 dtrace_thread_didexec:lwp-create 
+  0   1422   thread_terminate_self:lwp-exit THREAD EXIT:
+THREAD CSV:,606782, 38686055401397,38686055417425 ,16028,506026
+
+  0   1394 dtrace_thread_didexec:lwp-create 
+  0   1422   thread_terminate_self:lwp-exit THREAD EXIT:
+THREAD CSV:,606783, 38686055415898,38686055434057 ,18159,520527
+
+  0   1394 dtrace_thread_didexec:lwp-create 
+  0   1422   thread_terminate_self:lwp-exit THREAD EXIT:
+THREAD CSV:,606784, 38686055427405,38686055442249 ,14844,532034
+
+  0   1394 dtrace_thread_didexec:lwp-create 
+  0   1422   thread_terminate_self:lwp-exit THREAD EXIT:
+THREAD CSV:,606785, 38686055441748,38686055456870 ,15122,546377
+
+  0   1394 dtrace_thread_didexec:lwp-create 
+  0   1422   thread_terminate_self:lwp-exit THREAD EXIT:
+THREAD CSV:,606786, 38686055451394,38686055464928 ,13534,556023
+
+  0   1422   thread_terminate_self:lwp-exit THREAD EXIT:
+THREAD CSV:,606787, 38686055464565,38686055478092 ,13527,569194
+
+  0   1422   thread_terminate_self:lwp-exit THREAD EXIT:
+THREAD CSV:,606788, 38686055475274,38686055488368 ,13094,579903
+
+  0   1422   thread_terminate_self:lwp-exit THREAD EXIT:
+THREAD CSV:,606771, 0,38686055831444 ,38686055831444,0
+
+  0      2                             :END MAIN THREAD END:
+EXIT CSV:,38686055857915
+
+

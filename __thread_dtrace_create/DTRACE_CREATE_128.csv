@@ -1,0 +1,526 @@
+CPU     ID                    FUNCTION:NAME
+  0      1                           :BEGIN MAIN THREAD START:
+START CSV:,38687143290976
+
+  0   1394 dtrace_thread_didexec:lwp-create 
+  0   1422   thread_terminate_self:lwp-exit THREAD EXIT:
+THREAD CSV:,606527, 0,38687143667873 ,38687143667873,0
+
+  0   1394 dtrace_thread_didexec:lwp-create 
+  0   1394 dtrace_thread_didexec:lwp-create 
+  0   1394 dtrace_thread_didexec:lwp-create 
+  0   1422   thread_terminate_self:lwp-exit THREAD EXIT:
+THREAD CSV:,606989, 38687143689014,38687143710009 ,20995,398038
+
+  0   1394 dtrace_thread_didexec:lwp-create 
+  0   1394 dtrace_thread_didexec:lwp-create 
+  0   1422   thread_terminate_self:lwp-exit THREAD EXIT:
+THREAD CSV:,606990, 38687143704146,38687143739371 ,35225,413170
+
+  0   1422   thread_terminate_self:lwp-exit THREAD EXIT:
+THREAD CSV:,606992, 38687143717872,38687143754312 ,36440,426896
+
+  0   1422   thread_terminate_self:lwp-exit THREAD EXIT:
+THREAD CSV:,606993, 38687143729327,38687143760273 ,30946,438351
+
+  0   1422   thread_terminate_self:lwp-exit THREAD EXIT:
+THREAD CSV:,606991, 38687143713502,38687143760300 ,46798,422526
+
+  0   1394 dtrace_thread_didexec:lwp-create 
+  0   1394 dtrace_thread_didexec:lwp-create 
+  0   1422   thread_terminate_self:lwp-exit THREAD EXIT:
+THREAD CSV:,606994, 38687143791986,38687143814317 ,22331,501010
+
+  0   1394 dtrace_thread_didexec:lwp-create 
+  0   1422   thread_terminate_self:lwp-exit THREAD EXIT:
+THREAD CSV:,606995, 38687143807603,38687143833226 ,25623,516627
+
+  0   1394 dtrace_thread_didexec:lwp-create 
+  0   1422   thread_terminate_self:lwp-exit THREAD EXIT:
+THREAD CSV:,606996, 38687143829426,38687143852078 ,22652,538450
+
+  0   1422   thread_terminate_self:lwp-exit THREAD EXIT:
+THREAD CSV:,606997, 38687143849271,38687143863112 ,13841,558295
+
+  0   1394 dtrace_thread_didexec:lwp-create 
+  0   1422   thread_terminate_self:lwp-exit THREAD EXIT:
+THREAD CSV:,606998, 38687143862198,38687143873611 ,11413,571222
+
+  0   1394 dtrace_thread_didexec:lwp-create 
+  0   1422   thread_terminate_self:lwp-exit THREAD EXIT:
+THREAD CSV:,606999, 38687143873746,38687143885151 ,11405,582770
+
+  0   1394 dtrace_thread_didexec:lwp-create 
+  0   1394 dtrace_thread_didexec:lwp-create 
+  0   1422   thread_terminate_self:lwp-exit THREAD EXIT:
+THREAD CSV:,607000, 38687143886425,38687143898345 ,11920,595449
+
+  0   1394 dtrace_thread_didexec:lwp-create 
+  0   1422   thread_terminate_self:lwp-exit THREAD EXIT:
+THREAD CSV:,607001, 38687143895640,38687143910162 ,14522,604664
+
+  0   1394 dtrace_thread_didexec:lwp-create 
+  0   1422   thread_terminate_self:lwp-exit THREAD EXIT:
+THREAD CSV:,607002, 38687143909129,38687143921218 ,12089,618153
+
+  0   1394 dtrace_thread_didexec:lwp-create 
+  0   1422   thread_terminate_self:lwp-exit THREAD EXIT:
+THREAD CSV:,607003, 38687143920619,38687143932555 ,11936,629643
+
+  0   1422   thread_terminate_self:lwp-exit THREAD EXIT:
+THREAD CSV:,607004, 38687143931739,38687143943519 ,11780,640763
+
+  0   1394 dtrace_thread_didexec:lwp-create 
+  0   1394 dtrace_thread_didexec:lwp-create 
+  0   1422   thread_terminate_self:lwp-exit THREAD EXIT:
+THREAD CSV:,607005, 38687143942947,38687143955134 ,12187,651971
+
+  0   1422   thread_terminate_self:lwp-exit THREAD EXIT:
+THREAD CSV:,607006, 38687143954360,38687143965870 ,11510,663384
+
+  0   1394 dtrace_thread_didexec:lwp-create 
+  0   1422   thread_terminate_self:lwp-exit THREAD EXIT:
+THREAD CSV:,607007, 38687143965231,38687143976601 ,11370,674255
+
+  0   1394 dtrace_thread_didexec:lwp-create 
+  0   1422   thread_terminate_self:lwp-exit THREAD EXIT:
+THREAD CSV:,607008, 38687143975911,38687143988383 ,12472,684935
+
+  0   1394 dtrace_thread_didexec:lwp-create 
+  0   1422   thread_terminate_self:lwp-exit THREAD EXIT:
+THREAD CSV:,607009, 38687143987865,38687143999218 ,11353,696889
+
+  0   1394 dtrace_thread_didexec:lwp-create 
+  0   1394 dtrace_thread_didexec:lwp-create 
+  0   1422   thread_terminate_self:lwp-exit THREAD EXIT:
+THREAD CSV:,607010, 38687143999859,38687144011753 ,11894,708883
+
+  0   1394 dtrace_thread_didexec:lwp-create 
+  0   1422   thread_terminate_self:lwp-exit THREAD EXIT:
+THREAD CSV:,607011, 38687144010985,38687144022728 ,11743,720009
+
+  0   1394 dtrace_thread_didexec:lwp-create 
+  0   1422   thread_terminate_self:lwp-exit THREAD EXIT:
+THREAD CSV:,607012, 38687144021997,38687144034186 ,12189,731021
+
+  0   1394 dtrace_thread_didexec:lwp-create 
+  0   1422   thread_terminate_self:lwp-exit THREAD EXIT:
+THREAD CSV:,607013, 38687144033621,38687144047830 ,14209,742645
+
+  0   1422   thread_terminate_self:lwp-exit THREAD EXIT:
+THREAD CSV:,607014, 38687144043526,38687144055418 ,11892,752550
+
+  0   1394 dtrace_thread_didexec:lwp-create 
+  0   1394 dtrace_thread_didexec:lwp-create 
+  0   1422   thread_terminate_self:lwp-exit THREAD EXIT:
+THREAD CSV:,607015, 38687144057468,38687144069540 ,12072,766492
+
+  0   1394 dtrace_thread_didexec:lwp-create 
+  0   1422   thread_terminate_self:lwp-exit THREAD EXIT:
+THREAD CSV:,607016, 38687144068831,38687144080950 ,12119,777855
+
+  0   1394 dtrace_thread_didexec:lwp-create 
+  0   1422   thread_terminate_self:lwp-exit THREAD EXIT:
+THREAD CSV:,607017, 38687144080272,38687144091629 ,11357,789296
+
+  0   1394 dtrace_thread_didexec:lwp-create 
+  0   1422   thread_terminate_self:lwp-exit THREAD EXIT:
+THREAD CSV:,607018, 38687144090715,38687144103050 ,12335,799739
+
+  0   1394 dtrace_thread_didexec:lwp-create 
+  0   1422   thread_terminate_self:lwp-exit THREAD EXIT:
+THREAD CSV:,607019, 38687144102273,38687144114117 ,11844,811297
+
+  0   1394 dtrace_thread_didexec:lwp-create 
+  0   1422   thread_terminate_self:lwp-exit THREAD EXIT:
+THREAD CSV:,607020, 38687144113496,38687144125212 ,11716,822520
+
+  0   1394 dtrace_thread_didexec:lwp-create 
+  0   1422   thread_terminate_self:lwp-exit THREAD EXIT:
+THREAD CSV:,607021, 38687144124509,38687144136689 ,12180,833533
+
+  0   1394 dtrace_thread_didexec:lwp-create 
+  0   1422   thread_terminate_self:lwp-exit THREAD EXIT:
+THREAD CSV:,607022, 38687144135837,38687144147751 ,11914,844861
+
+  0   1422   thread_terminate_self:lwp-exit THREAD EXIT:
+THREAD CSV:,607023, 38687144147084,38687144158442 ,11358,856108
+
+  0   1394 dtrace_thread_didexec:lwp-create 
+  0   1422   thread_terminate_self:lwp-exit THREAD EXIT:
+THREAD CSV:,607024, 38687144158640,38687144170050 ,11410,867664
+
+  0   1394 dtrace_thread_didexec:lwp-create 
+  0   1422   thread_terminate_self:lwp-exit THREAD EXIT:
+THREAD CSV:,607025, 38687144169288,38687144181481 ,12193,878312
+
+  0   1394 dtrace_thread_didexec:lwp-create 
+  0   1422   thread_terminate_self:lwp-exit THREAD EXIT:
+THREAD CSV:,607026, 38687144180738,38687144192856 ,12118,889762
+
+  0   1394 dtrace_thread_didexec:lwp-create 
+  0   1422   thread_terminate_self:lwp-exit THREAD EXIT:
+THREAD CSV:,607027, 38687144192074,38687144204364 ,12290,901098
+
+  0   1394 dtrace_thread_didexec:lwp-create 
+  0   1422   thread_terminate_self:lwp-exit THREAD EXIT:
+THREAD CSV:,607028, 38687144203705,38687144215992 ,12287,912729
+
+  0   1394 dtrace_thread_didexec:lwp-create 
+  0   1422   thread_terminate_self:lwp-exit THREAD EXIT:
+THREAD CSV:,607029, 38687144215153,38687144226744 ,11591,924177
+
+  0   1394 dtrace_thread_didexec:lwp-create 
+  0   1422   thread_terminate_self:lwp-exit THREAD EXIT:
+THREAD CSV:,607030, 38687144226231,38687144238745 ,12514,935255
+
+  0   1394 dtrace_thread_didexec:lwp-create 
+  0   1422   thread_terminate_self:lwp-exit THREAD EXIT:
+THREAD CSV:,607031, 38687144237007,38687144250525 ,13518,946031
+
+  0   1394 dtrace_thread_didexec:lwp-create 
+  0   1394 dtrace_thread_didexec:lwp-create 
+  0   1422   thread_terminate_self:lwp-exit THREAD EXIT:
+THREAD CSV:,607032, 38687144254551,38687144269138 ,14587,963575
+
+  0   1394 dtrace_thread_didexec:lwp-create 
+  0   1422   thread_terminate_self:lwp-exit THREAD EXIT:
+THREAD CSV:,607033, 38687144264111,38687144276230 ,12119,973135
+
+  0   1394 dtrace_thread_didexec:lwp-create 
+  0   1422   thread_terminate_self:lwp-exit THREAD EXIT:
+THREAD CSV:,607034, 38687144277194,38687144288929 ,11735,986218
+
+  0   1394 dtrace_thread_didexec:lwp-create 
+  0   1422   thread_terminate_self:lwp-exit THREAD EXIT:
+THREAD CSV:,607035, 38687144288294,38687144300710 ,12416,997318
+
+  0   1394 dtrace_thread_didexec:lwp-create 
+  0   1422   thread_terminate_self:lwp-exit THREAD EXIT:
+THREAD CSV:,607036, 38687144299962,38687144312241 ,12279,1008986
+
+  0   1394 dtrace_thread_didexec:lwp-create 
+  0   1422   thread_terminate_self:lwp-exit THREAD EXIT:
+THREAD CSV:,607037, 38687144311449,38687144323724 ,12275,1020473
+
+  0   1394 dtrace_thread_didexec:lwp-create 
+  0   1422   thread_terminate_self:lwp-exit THREAD EXIT:
+THREAD CSV:,607038, 38687144322966,38687144336828 ,13862,1031990
+
+  0   1394 dtrace_thread_didexec:lwp-create 
+  0   1422   thread_terminate_self:lwp-exit THREAD EXIT:
+THREAD CSV:,607039, 38687144335655,38687144347153 ,11498,1044679
+
+  0   1394 dtrace_thread_didexec:lwp-create 
+  0   1422   thread_terminate_self:lwp-exit THREAD EXIT:
+THREAD CSV:,607040, 38687144346169,38687144358259 ,12090,1055193
+
+  0   1394 dtrace_thread_didexec:lwp-create 
+  0   1422   thread_terminate_self:lwp-exit THREAD EXIT:
+THREAD CSV:,607041, 38687144357421,38687144370640 ,13219,1066445
+
+  0   1394 dtrace_thread_didexec:lwp-create 
+  0   1422   thread_terminate_self:lwp-exit THREAD EXIT:
+THREAD CSV:,607042, 38687144369874,38687144382044 ,12170,1078898
+
+  0   1422   thread_terminate_self:lwp-exit THREAD EXIT:
+THREAD CSV:,607043, 38687144381276,38687144393146 ,11870,1090300
+
+  0   1394 dtrace_thread_didexec:lwp-create 
+  0   1394 dtrace_thread_didexec:lwp-create 
+  0   1422   thread_terminate_self:lwp-exit THREAD EXIT:
+THREAD CSV:,607044, 38687144392630,38687144405461 ,12831,1101654
+
+  0   1394 dtrace_thread_didexec:lwp-create 
+  0   1422   thread_terminate_self:lwp-exit THREAD EXIT:
+THREAD CSV:,607045, 38687144404438,38687144416518 ,12080,1113462
+
+  0   1422   thread_terminate_self:lwp-exit THREAD EXIT:
+THREAD CSV:,607046, 38687144415761,38687144426980 ,11219,1124785
+
+  0   1394 dtrace_thread_didexec:lwp-create 
+  0   1394 dtrace_thread_didexec:lwp-create 
+  0   1422   thread_terminate_self:lwp-exit THREAD EXIT:
+THREAD CSV:,607047, 38687144426313,38687144439713 ,13400,1135337
+
+  0   1422   thread_terminate_self:lwp-exit THREAD EXIT:
+THREAD CSV:,607048, 38687144436828,38687144449646 ,12818,1145852
+
+  0   1394 dtrace_thread_didexec:lwp-create 
+  0   1394 dtrace_thread_didexec:lwp-create 
+  0   1422   thread_terminate_self:lwp-exit THREAD EXIT:
+THREAD CSV:,607049, 38687144449939,38687144462342 ,12403,1158963
+
+  0   1394 dtrace_thread_didexec:lwp-create 
+  0   1422   thread_terminate_self:lwp-exit THREAD EXIT:
+THREAD CSV:,607050, 38687144461579,38687144475259 ,13680,1170603
+
+  0   1394 dtrace_thread_didexec:lwp-create 
+  0   1422   thread_terminate_self:lwp-exit THREAD EXIT:
+THREAD CSV:,607051, 38687144474225,38687144486419 ,12194,1183249
+
+  0   1394 dtrace_thread_didexec:lwp-create 
+  0   1422   thread_terminate_self:lwp-exit THREAD EXIT:
+THREAD CSV:,607052, 38687144485468,38687144497810 ,12342,1194492
+
+  0   1394 dtrace_thread_didexec:lwp-create 
+  0   1422   thread_terminate_self:lwp-exit THREAD EXIT:
+THREAD CSV:,607053, 38687144496986,38687144509024 ,12038,1206010
+
+  0   1422   thread_terminate_self:lwp-exit THREAD EXIT:
+THREAD CSV:,607054, 38687144508235,38687144520351 ,12116,1217259
+
+  0   1394 dtrace_thread_didexec:lwp-create 
+  0   1394 dtrace_thread_didexec:lwp-create 
+  0   1422   thread_terminate_self:lwp-exit THREAD EXIT:
+THREAD CSV:,607055, 38687144519645,38687144533159 ,13514,1228669
+
+  0   1394 dtrace_thread_didexec:lwp-create 
+  0   1422   thread_terminate_self:lwp-exit THREAD EXIT:
+THREAD CSV:,607056, 38687144530079,38687144546278 ,16199,1239103
+
+  0   1422   thread_terminate_self:lwp-exit THREAD EXIT:
+THREAD CSV:,607057, 38687144543386,38687144556272 ,12886,1252410
+
+  0   1394 dtrace_thread_didexec:lwp-create 
+  0   1422   thread_terminate_self:lwp-exit THREAD EXIT:
+THREAD CSV:,607058, 38687144555432,38687144567912 ,12480,1264456
+
+  0   1394 dtrace_thread_didexec:lwp-create 
+  0   1422   thread_terminate_self:lwp-exit THREAD EXIT:
+THREAD CSV:,607059, 38687144568904,38687144580592 ,11688,1277928
+
+  0   1394 dtrace_thread_didexec:lwp-create 
+  0   1422   thread_terminate_self:lwp-exit THREAD EXIT:
+THREAD CSV:,607060, 38687144579704,38687144592316 ,12612,1288728
+
+  0   1394 dtrace_thread_didexec:lwp-create 
+  0   1422   thread_terminate_self:lwp-exit THREAD EXIT:
+THREAD CSV:,607061, 38687144590456,38687144603386 ,12930,1299480
+
+  0   1394 dtrace_thread_didexec:lwp-create 
+  0   1422   thread_terminate_self:lwp-exit THREAD EXIT:
+THREAD CSV:,607062, 38687144604137,38687144615604 ,11467,1313161
+
+  0   1394 dtrace_thread_didexec:lwp-create 
+  0   1422   thread_terminate_self:lwp-exit THREAD EXIT:
+THREAD CSV:,607063, 38687144616211,38687144627741 ,11530,1325235
+
+  0   1394 dtrace_thread_didexec:lwp-create 
+  0   1422   thread_terminate_self:lwp-exit THREAD EXIT:
+THREAD CSV:,607064, 38687144628575,38687144640119 ,11544,1337599
+
+  0   1394 dtrace_thread_didexec:lwp-create 
+  0   1422   thread_terminate_self:lwp-exit THREAD EXIT:
+THREAD CSV:,607065, 38687144640486,38687144651750 ,11264,1349510
+
+  0   1394 dtrace_thread_didexec:lwp-create 
+  0   1422   thread_terminate_self:lwp-exit THREAD EXIT:
+THREAD CSV:,607066, 38687144650326,38687144664567 ,14241,1359350
+
+  0   1394 dtrace_thread_didexec:lwp-create 
+  0   1394 dtrace_thread_didexec:lwp-create 
+  0   1422   thread_terminate_self:lwp-exit THREAD EXIT:
+THREAD CSV:,607067, 38687144661779,38687144676476 ,14697,1370803
+
+  0   1394 dtrace_thread_didexec:lwp-create 
+  0   1422   thread_terminate_self:lwp-exit THREAD EXIT:
+THREAD CSV:,607068, 38687144675899,38687144687787 ,11888,1384923
+
+  0   1394 dtrace_thread_didexec:lwp-create 
+  0   1422   thread_terminate_self:lwp-exit THREAD EXIT:
+THREAD CSV:,607069, 38687144687038,38687144699218 ,12180,1396062
+
+  0   1422   thread_terminate_self:lwp-exit THREAD EXIT:
+THREAD CSV:,607070, 38687144698470,38687144710065 ,11595,1407494
+
+  0   1394 dtrace_thread_didexec:lwp-create 
+  0   1422   thread_terminate_self:lwp-exit THREAD EXIT:
+THREAD CSV:,607071, 38687144710709,38687144722219 ,11510,1419733
+
+  0   1394 dtrace_thread_didexec:lwp-create 
+  0   1394 dtrace_thread_didexec:lwp-create 
+  0   1422   thread_terminate_self:lwp-exit THREAD EXIT:
+THREAD CSV:,607072, 38687144720748,38687144735660 ,14912,1429772
+
+  0   1394 dtrace_thread_didexec:lwp-create 
+  0   1422   thread_terminate_self:lwp-exit THREAD EXIT:
+THREAD CSV:,607073, 38687144734595,38687144747221 ,12626,1443619
+
+  0   1394 dtrace_thread_didexec:lwp-create 
+  0   1422   thread_terminate_self:lwp-exit THREAD EXIT:
+THREAD CSV:,607074, 38687144746422,38687144758643 ,12221,1455446
+
+  0   1394 dtrace_thread_didexec:lwp-create 
+  0   1422   thread_terminate_self:lwp-exit THREAD EXIT:
+THREAD CSV:,607075, 38687144757836,38687144770627 ,12791,1466860
+
+  0   1394 dtrace_thread_didexec:lwp-create 
+  0   1422   thread_terminate_self:lwp-exit THREAD EXIT:
+THREAD CSV:,607076, 38687144769797,38687144781930 ,12133,1478821
+
+  0   1422   thread_terminate_self:lwp-exit THREAD EXIT:
+THREAD CSV:,607077, 38687144781128,38687144792763 ,11635,1490152
+
+  0   1394 dtrace_thread_didexec:lwp-create 
+  0   1394 dtrace_thread_didexec:lwp-create 
+  0   1422   thread_terminate_self:lwp-exit THREAD EXIT:
+THREAD CSV:,607078, 38687144793353,38687144809890 ,16537,1502377
+
+  0   1422   thread_terminate_self:lwp-exit THREAD EXIT:
+THREAD CSV:,607079, 38687144805035,38687144883237 ,78202,1514059
+
+  0   1394 dtrace_thread_didexec:lwp-create 
+  0   1394 dtrace_thread_didexec:lwp-create 
+  0   1422   thread_terminate_self:lwp-exit THREAD EXIT:
+THREAD CSV:,607080, 38687144886917,38687144905076 ,18159,1595941
+
+  0   1394 dtrace_thread_didexec:lwp-create 
+  0   1422   thread_terminate_self:lwp-exit THREAD EXIT:
+THREAD CSV:,607081, 38687144904004,38687144922834 ,18830,1613028
+
+  0   1394 dtrace_thread_didexec:lwp-create 
+  0   1422   thread_terminate_self:lwp-exit THREAD EXIT:
+THREAD CSV:,607082, 38687144921781,38687144940931 ,19150,1630805
+
+  0   1422   thread_terminate_self:lwp-exit THREAD EXIT:
+THREAD CSV:,607083, 38687144936870,38687144961432 ,24562,1645894
+
+  0   1394 dtrace_thread_didexec:lwp-create 
+  0   1394 dtrace_thread_didexec:lwp-create 
+  0   1422   thread_terminate_self:lwp-exit THREAD EXIT:
+THREAD CSV:,607084, 38687144960774,38687144975125 ,14351,1669798
+
+  0   1422   thread_terminate_self:lwp-exit THREAD EXIT:
+THREAD CSV:,607085, 38687144971264,38687144985222 ,13958,1680288
+
+  0   1394 dtrace_thread_didexec:lwp-create 
+  0   1422   thread_terminate_self:lwp-exit THREAD EXIT:
+THREAD CSV:,607086, 38687144984695,38687145000269 ,15574,1693719
+
+  0   1394 dtrace_thread_didexec:lwp-create 
+  0   1422   thread_terminate_self:lwp-exit THREAD EXIT:
+THREAD CSV:,607087, 38687145005147,38687145018473 ,13326,1714171
+
+  0   1394 dtrace_thread_didexec:lwp-create 
+  0   1394 dtrace_thread_didexec:lwp-create 
+  0   1422   thread_terminate_self:lwp-exit THREAD EXIT:
+THREAD CSV:,607088, 38687145022209,38687145034953 ,12744,1731233
+
+  0   1394 dtrace_thread_didexec:lwp-create 
+  0   1422   thread_terminate_self:lwp-exit THREAD EXIT:
+THREAD CSV:,607089, 38687145032109,38687145068540 ,36431,1741133
+
+  0   1422   thread_terminate_self:lwp-exit THREAD EXIT:
+THREAD CSV:,607090, 38687145060426,38687145074751 ,14325,1769450
+
+  0   1394 dtrace_thread_didexec:lwp-create 
+  0   1394 dtrace_thread_didexec:lwp-create 
+  0   1422   thread_terminate_self:lwp-exit THREAD EXIT:
+THREAD CSV:,607091, 38687145078282,38687145090677 ,12395,1787306
+
+  0   1394 dtrace_thread_didexec:lwp-create 
+  0   1422   thread_terminate_self:lwp-exit THREAD EXIT:
+THREAD CSV:,607092, 38687145089181,38687145103318 ,14137,1798205
+
+  0   1394 dtrace_thread_didexec:lwp-create 
+  0   1422   thread_terminate_self:lwp-exit THREAD EXIT:
+THREAD CSV:,607093, 38687145102576,38687145115929 ,13353,1811600
+
+  0   1394 dtrace_thread_didexec:lwp-create 
+  0   1422   thread_terminate_self:lwp-exit THREAD EXIT:
+THREAD CSV:,607094, 38687145113074,38687145126156 ,13082,1822098
+
+  0   1394 dtrace_thread_didexec:lwp-create 
+  0   1422   thread_terminate_self:lwp-exit THREAD EXIT:
+THREAD CSV:,607095, 38687145125651,38687145138339 ,12688,1834675
+
+  0   1394 dtrace_thread_didexec:lwp-create 
+  0   1422   thread_terminate_self:lwp-exit THREAD EXIT:
+THREAD CSV:,607096, 38687145137577,38687145149844 ,12267,1846601
+
+  0   1394 dtrace_thread_didexec:lwp-create 
+  0   1422   thread_terminate_self:lwp-exit THREAD EXIT:
+THREAD CSV:,607097, 38687145148823,38687145162005 ,13182,1857847
+
+  0   1394 dtrace_thread_didexec:lwp-create 
+  0   1422   thread_terminate_self:lwp-exit THREAD EXIT:
+THREAD CSV:,607098, 38687145161379,38687145173355 ,11976,1870403
+
+  0   1394 dtrace_thread_didexec:lwp-create 
+  0   1422   thread_terminate_self:lwp-exit THREAD EXIT:
+THREAD CSV:,607099, 38687145172498,38687145186218 ,13720,1881522
+
+  0   1394 dtrace_thread_didexec:lwp-create 
+  0   1422   thread_terminate_self:lwp-exit THREAD EXIT:
+THREAD CSV:,607100, 38687145185175,38687145197378 ,12203,1894199
+
+  0   1422   thread_terminate_self:lwp-exit THREAD EXIT:
+THREAD CSV:,607101, 38687145196566,38687145208784 ,12218,1905590
+
+  0   1394 dtrace_thread_didexec:lwp-create 
+  0   1394 dtrace_thread_didexec:lwp-create 
+  0   1422   thread_terminate_self:lwp-exit THREAD EXIT:
+THREAD CSV:,607102, 38687145207977,38687145221216 ,13239,1917001
+
+  0   1394 dtrace_thread_didexec:lwp-create 
+  0   1422   thread_terminate_self:lwp-exit THREAD EXIT:
+THREAD CSV:,607103, 38687145218292,38687145233979 ,15687,1927316
+
+  0   1394 dtrace_thread_didexec:lwp-create 
+  0   1422   thread_terminate_self:lwp-exit THREAD EXIT:
+THREAD CSV:,607104, 38687145233265,38687145246386 ,13121,1942289
+
+  0   1394 dtrace_thread_didexec:lwp-create 
+  0   1422   thread_terminate_self:lwp-exit THREAD EXIT:
+THREAD CSV:,607105, 38687145245590,38687145258153 ,12563,1954614
+
+  0   1394 dtrace_thread_didexec:lwp-create 
+  0   1422   thread_terminate_self:lwp-exit THREAD EXIT:
+THREAD CSV:,607106, 38687145257144,38687145269652 ,12508,1966168
+
+  0   1394 dtrace_thread_didexec:lwp-create 
+  0   1422   thread_terminate_self:lwp-exit THREAD EXIT:
+THREAD CSV:,607107, 38687145268932,38687145281362 ,12430,1977956
+
+  0   1394 dtrace_thread_didexec:lwp-create 
+  0   1422   thread_terminate_self:lwp-exit THREAD EXIT:
+THREAD CSV:,607108, 38687145280497,38687145293785 ,13288,1989521
+
+  0   1394 dtrace_thread_didexec:lwp-create 
+  0   1422   thread_terminate_self:lwp-exit THREAD EXIT:
+THREAD CSV:,607109, 38687145292702,38687145306351 ,13649,2001726
+
+  0   1394 dtrace_thread_didexec:lwp-create 
+  0   1422   thread_terminate_self:lwp-exit THREAD EXIT:
+THREAD CSV:,607110, 38687145305301,38687145317555 ,12254,2014325
+
+  0   1394 dtrace_thread_didexec:lwp-create 
+  0   1422   thread_terminate_self:lwp-exit THREAD EXIT:
+THREAD CSV:,607111, 38687145316638,38687145329836 ,13198,2025662
+
+  0   1394 dtrace_thread_didexec:lwp-create 
+  0   1422   thread_terminate_self:lwp-exit THREAD EXIT:
+THREAD CSV:,607112, 38687145328901,38687145341134 ,12233,2037925
+
+  0   1422   thread_terminate_self:lwp-exit THREAD EXIT:
+THREAD CSV:,607113, 38687145340253,38687145352432 ,12179,2049277
+
+  0   1394 dtrace_thread_didexec:lwp-create 
+  0   1394 dtrace_thread_didexec:lwp-create 
+  0   1422   thread_terminate_self:lwp-exit THREAD EXIT:
+THREAD CSV:,607114, 38687145350908,38687145365281 ,14373,2059932
+
+  0   1422   thread_terminate_self:lwp-exit THREAD EXIT:
+THREAD CSV:,607115, 38687145362129,38687145377301 ,15172,2071153
+
+  0   1422   thread_terminate_self:lwp-exit THREAD EXIT:
+THREAD CSV:,607116, 38687145376515,38687145390586 ,14071,2085539
+
+  0   1422   thread_terminate_self:lwp-exit THREAD EXIT:
+THREAD CSV:,606984, 0,38687147160024 ,38687147160024,0
+
+  0      2                             :END MAIN THREAD END:
+EXIT CSV:,38687147204446
+
+

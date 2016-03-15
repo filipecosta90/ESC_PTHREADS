@@ -1,0 +1,15 @@
+CPU     ID                    FUNCTION:NAME
+  0      1                           :BEGIN MAIN THREAD START:
+START CSV:,38684674271470
+
+  0   1394 dtrace_thread_didexec:lwp-create 
+  0   1422   thread_terminate_self:lwp-exit THREAD EXIT:
+THREAD CSV:,606693, 38684674551340,38684674574702 ,23362,279870
+
+  0   1422   thread_terminate_self:lwp-exit THREAD EXIT:
+THREAD CSV:,606692, 0,38684674940821 ,38684674940821,0
+
+  0      2                             :END MAIN THREAD END:
+EXIT CSV:,38684675000638
+
+
