@@ -44,7 +44,7 @@ do
   do
     for size in 1073741824
     do
-	export OMP_NUM_THREADS=$nthreads
+      export OMP_NUM_THREADS=$nthreads
       ./pth_trap $nthreads $method 0 $size 2097152 
     done
   done

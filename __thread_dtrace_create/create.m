@@ -1,4 +1,4 @@
-threads_csv = readtable('THREAD_DTRACE_CREATE_256.csv','ReadVariableNames',false);
+threads_csv = readtable('THREAD_DTRACE_CREATE_32.csv','ReadVariableNames',false);
 thread_ids = table2array( threads_csv ( :, [1])); 
 thread_start = table2array( threads_csv ( :, [5])); 
 thread_duration = table2array( threads_csv ( :, [4])); 
@@ -8,7 +8,6 @@ thread_stop = thread_start + thread_duration;
 thread_idx =  [0 : length(thread_ids)-1] ;
 thread_startx = transpose (thread_start);
 thread_stopx = transpose (thread_stop);
-
 a = thread_duration ( 2 : length(thread_duration) , : );
 media = mean ( a );
 desvio = std( a );

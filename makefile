@@ -1,18 +1,15 @@
 
-CC = gcc
+CC = g++
 
 #flags
 
-CFLAGS= -Wall -fopenmp -lpthread
+CFLAGS= -mp-5 --std=c++11 -Wall -O2 -fopenmp 
 
-create: create.o 
-	$(CC) $(CFLAGS) -o pth_create create.c
+ex2: 
+	$(CC) $(CFLAGS) -o ex2_v2 ex2_v2.cxx
 
-trapezoid: trapezoid.o 
-	$(CC) $(CFLAGS) -o pth_trap trapezoid.c
-
-all: trapezoid create
+all: ex2 
 
 .PHONY: clean
 clean:
-	rm  *.o && rm pth_* 
+	rm  *.o && rm ex2_v2
